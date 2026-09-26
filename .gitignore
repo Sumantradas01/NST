@@ -1,0 +1,226 @@
+# ================================
+
+# OS / System files
+
+# ================================
+
+# macOS
+
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+
+*~
+.nfs*
+
+# ================================
+
+# Python
+
+# ================================
+
+# Python bytecode
+
+**pycache**/
+**/**pycache**/
+*.py[cod]
+*$py.class
+
+# Python cache
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ================================
+
+# Virtual environments
+
+# ================================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ================================
+
+# Environment / secrets
+
+# ================================
+
+.env
+.env.*
+!.env.example
+
+# ================================
+
+# Jupyter Notebook
+
+# ================================
+
+.ipynb_checkpoints/
+
+# ================================
+
+# VS Code
+
+# ================================
+
+.vscode/
+*.code-workspace
+
+# ================================
+
+# PyCharm / IntelliJ
+
+# ================================
+
+.idea/
+*.iml
+
+# ================================
+
+# Flask
+
+# ================================
+
+instance/
+.webassets-cache/
+
+# ================================
+
+# Logs
+
+# ================================
+
+*.log
+logs/
+
+# ================================
+
+# Temporary files
+
+# ================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.cache
+
+# ================================
+
+# Machine Learning / Deep Learning
+
+# ================================
+
+# Model checkpoints
+
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.safetensors
+
+# TensorBoard
+
+runs/
+tensorboard/
+wandb/
+
+# ================================
+
+# Datasets
+
+# ================================
+
+# Uncomment if datasets should NOT be uploaded to Git
+
+# data/
+
+# datasets/
+
+# *.csv
+
+# *.zip
+
+# ================================
+
+# Generated images / outputs
+
+# ================================
+
+outputs/
+output/
+results/
+generated/
+generated_images/
+uploads/
+static/uploads/
+
+# ================================
+
+# Node / Frontend (if used)
+
+# ================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ================================
+
+# Coverage / testing
+
+# ================================
+
+.pytest_cache/
+.tox/
+.nox/
+
+# ================================
+
+# Project-specific
+
+# ================================
+
+# Local configuration
+
+config.local.*
+settings.local.*
+
+# Temporary downloads
+
+downloads/
+tmp/
+temp/
